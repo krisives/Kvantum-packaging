@@ -1,0 +1,23 @@
+Source: kvantum
+Section: kde
+Priority: optional
+Maintainer: Kristopher Ives <kristopher.ives@gmail.com>
+Build-Depends:
+ debhelper (>= 10),
+ cmake, extra-cmake-modules,
+ libx11-dev,
+ libxext-dev,
+ qtbase5-dev,
+ libqt5svg5-dev,
+ libqt5x11extras5-dev,
+ libkf5windowsystem-dev,
+ qttools5-dev-tools
+Standards-Version: 4.1.2
+Homepage: https://github.com/tsujan/Kvantum/
+Vcs-Git: https://github.com/tsujan/Kvantum.git
+Vcs-Browser: https://github.com/tsujan/Kvantum/
+
+Package: kvantum
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A Linux SVG-based theme engine for Qt4/Qt5 and KDE
