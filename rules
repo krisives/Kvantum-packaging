@@ -15,7 +15,7 @@
 
 
 %:
-	dh $@
+	dh $@ --sourcedirectory=Kvantum
 
 
 # dh_make generated override targets
